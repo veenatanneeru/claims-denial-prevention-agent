@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+langgraph
+langchain-core
+pydantic>=2
+xgboost
+scikit-learn
+pandas
+joblib
+chromadb
+sentence-transformers
+pytest
+httpx
