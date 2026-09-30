@@ -12,6 +12,10 @@ ACTIONS = {
         "Send to coder review to correct the diagnosis or procedure code",
     "Claim was filed after the 90-day limit":
         "Attach proof of timely filing or of a payer-caused delay",
+    "Long delay between service and filing":
+        "Submit as soon as possible; filing delays are a leading cause of denials",
+    "High billed amount":
+        "Double-check coding and attach supporting documentation for this high-dollar claim",
 }
 
 

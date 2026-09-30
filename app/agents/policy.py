@@ -6,9 +6,6 @@ from app.reference import CPT_INFO
 def run(state: dict) -> dict:
     claim = state["claim"]
     info = CPT_INFO.get(claim["cpt_code"], {})
-    query = (
-        f"CPT {claim['cpt_code']} {info.get('desc', '')} "
-        f"diagnosis {claim['diagnosis_code']} prior authorization timely filing network"
-    )
+    query = f"CPT {claim['cpt_code']} {info.get('desc', '')} prior authorization timely filing network"
     hits = search(query, k=3)
     return {"policy_context": [f"[{h['source']}] {h['text'].strip()}" for h in hits]}
