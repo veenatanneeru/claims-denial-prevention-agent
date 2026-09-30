@@ -1,4 +1,6 @@
-# Multi-Agent Claims Denial-Prevention System
+# Multi-Agent Claims 
+![CI](https://github.com/veenatanneeru/claims-denial-prevention-agent/actions/workflows/ci.yml/badge.svg)
+Denial-Prevention System
 
 A five-agent pipeline that checks a healthcare claim *before* submission and predicts whether the payer will deny it. It explains the risk and recommends fixes.
 
