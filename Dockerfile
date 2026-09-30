@@ -11,9 +11,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY app ./app
 COPY data ./data
 
-# Train the model at build time (model.joblib is gitignored) and pre-download the embedding model
+# model.joblib is gitignored, so train it at build time
 RUN python -m app.ml.train
-RUN python -c "from app.rag.store import search; search('warmup', k=1)"
 
-ENV PORT=8080
+ENV PORT=10000
 CMD exec uvicorn app.api.main:app --host 0.0.0.0 --port $PORT

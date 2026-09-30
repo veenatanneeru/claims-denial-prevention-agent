@@ -7,6 +7,5 @@ xgboost
 scikit-learn
 pandas
 joblib
-chromadb
 pytest
 httpx
