@@ -1,0 +1,12 @@
+{
+  "claim_id": "DEMO-001",
+  "member_id": "M100000",
+  "payer": "Aetna",
+  "cpt_code": "72148",
+  "diagnosis_code": "M54.50",
+  "billed_amount": 1800.0,
+  "prior_auth_present": false,
+  "provider_in_network": false,
+  "days_to_filing": 120,
+  "service_date": "2024-02-02"
+}

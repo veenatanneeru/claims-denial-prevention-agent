@@ -1,0 +1,21 @@
+{
+  "claim_id": "DEMO-001",
+  "validation_errors": [],
+  "eligible": true,
+  "eligibility_reason": "Active coverage on service date",
+  "denial_risk": 0.859,
+  "risk_factors": [
+    "Long delay between service and filing",
+    "Provider is out of network",
+    "No prior authorization on file"
+  ],
+  "policy_context": [
+    "[prior_auth_mri.md] # Policy PA-101: Prior Authorization for Advanced Imaging\nApplies to C...",
+    "[medical_necessity.md] # Policy MN-401: Diagnosis and Procedure Consistency\nThe diagnosis ...",
+    "[physical_therapy.md] # Policy PT-701: Therapeutic Exercise (CPT 97110)\nCoverage is limite..."
+  ],
+  "recommendation": "High denial risk: hold the claim and fix the issues below before submitting",
+  "actions": [
+    "Verify network status; expect reduced reimbursement or request an exception"
+  ]
+}
