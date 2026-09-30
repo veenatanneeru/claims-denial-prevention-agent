@@ -5,17 +5,19 @@
   "eligibility_reason": "Active coverage on service date",
   "denial_risk": 0.859,
   "risk_factors": [
-    "Long delay between service and filing",
+    "Claim was filed after the 90-day limit",
     "Provider is out of network",
-    "No prior authorization on file"
+    "Prior authorization is required but not on file"
   ],
   "policy_context": [
     "[prior_auth_mri.md] # Policy PA-101: Prior Authorization for Advanced Imaging\nApplies to C...",
-    "[medical_necessity.md] # Policy MN-401: Diagnosis and Procedure Consistency\nThe diagnosis ...",
-    "[physical_therapy.md] # Policy PT-701: Therapeutic Exercise (CPT 97110)\nCoverage is limite..."
+    "[network_status.md] # Policy NW-301: Network Participation\nServices from out-of-network pr...",
+    "[timely_filing.md] # Policy TF-201: Timely Filing\nClaims must be submitted within 90 days ..."
   ],
   "recommendation": "High denial risk: hold the claim and fix the issues below before submitting",
   "actions": [
-    "Verify network status; expect reduced reimbursement or request an exception"
+    "Attach proof of timely filing or of a payer-caused delay",
+    "Verify network status; expect reduced reimbursement or request an exception",
+    "Obtain the prior authorization and attach its number before submitting"
   ]
 }
