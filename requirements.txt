@@ -8,6 +8,5 @@ scikit-learn
 pandas
 joblib
 chromadb
-sentence-transformers
 pytest
 httpx
